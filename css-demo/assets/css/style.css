@@ -20,3 +20,51 @@ html {
   white-space: nowrap;
   width: 1px;
 }
+
+body{
+  font-family: "Playpen Sans", cursive;
+  margin:0;
+}
+
+header.primary{
+  background-color:#3A5D67;
+  color:#ffffff;
+  text-align:center;
+  text-shadow:1px 1px #000000;
+  padding:40px;
+  /* Longform */
+  padding-top:40px;
+  padding-right:40px;
+  padding-bottom:40px;
+  padding-left:40px;
+   /* T/R/B/L */
+  padding: 40px 40px 20px 40px;
+    /* T/B | L/R */
+  padding: 20px 40px;
+}
+
+header.primary a{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+header.primary h1{
+  font-size: 2.6rem;
+  margin:0;
+}
+
+header.primary p.subtitle{
+  font-size:1.3rem;
+  font-weight:bold;
+  /* top | L/R | Bottom */
+  margin:10px 0 20px;
+  letter-spacing: .1px;
+}
+
+nav.primary ul{
+  padding:0;
+}
+nav.primary ul li{
+  list-style-type: none;
+}
+nav.primary ul li a{}
