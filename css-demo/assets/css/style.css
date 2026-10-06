@@ -8,6 +8,13 @@ html {
   box-sizing: inherit;
 }
 
+/* --------------- Responsive Images ----------------- */
+
+img{
+  max-width:100%;
+}
+
+
 /* Skip link utility: hidden until focused */
 .visually-hidden {
   border: 0;
@@ -95,14 +102,63 @@ nav.primary ul li a:hover{
   background-color:rgba(0,0,0,.8);
 }
 
+#content h2{
+  color: #3A5D67;
+  text-decoration:underline;
+  border-bottom:1px dotted #ccc;
+}
+
+#content p{
+  line-height:1.7;
+}
+
+#blog{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+#blog figure{
+  margin:0;
+}
+
+#blog .post{
+  box-shadow: 0 4px 8px rgba(0,0,0,.6);
+  padding:10px;
+  font-size:.9rem;
+  flex:1;
+}
+
+#blog h2{
+  flex: 0 0 100%;
+}
+
+#blog time.post-date, #blog figcaption{
+  text-transform:uppercase;
+  font-size:.7rem;
+}
+
+#blog a{
+  color: #3A5D67;
+}
+
+
+
 /* -------- Media Queries --------*/
 
 @media screen and (max-width:500px){
 
-nav.primary ul{
+nav.primary ul {
   flex-direction:column;
   gap:10px;
+}
 
+.container{
+  width:90vw;
+}
 
-
+#blog {
+  flex-direction:column;
 }
