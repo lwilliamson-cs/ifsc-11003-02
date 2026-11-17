@@ -64,6 +64,10 @@ body{
   margin:0;
 }
 
+#page-about header.primary{
+  background-color:#3A5D67;
+}
+
 header.primary{
   background-color:#3A5D67;
   color:#ffffff;
@@ -204,9 +208,6 @@ nav.primary ul li a:hover{
   color: #ffffff;
   padding: 7.5px;
 }
-#practice tr{
-
-}
 
 #practice tr:nth-child(even){
   background-color: rgba(0,0,0,.2);
@@ -233,7 +234,6 @@ nav.primary ul li a:hover{
   color:#3A5D67;
 }
 
-#practice dl{}
 #practice dt{
   font-weight: bold;
 }
@@ -311,4 +311,5 @@ nav.primary ul {
 
 #blog {
   flex-direction:column;
+}
 }
